@@ -1,0 +1,209 @@
+﻿Build started 9/11/2015 6:36:01 μμ.
+     1>Project "C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\powerflow\powerflow.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Release\powerflow\powerflow.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\MySQL\MySQL Connector C++ 1.1.6\include" /IC:\Users\Antonia\Documents\programs_setups\boost_1_59_0\boost_1_59_0 /I..\core /I..\third_party\superLU_MT /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _NO_CPPUNIT /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Release\powerflow\\" /Fd"Win32\Release\powerflow\vc100.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt link.cpp node.cpp triplex_meter.cpp
+         link.cpp
+     1>c:\program files (x86)\mysql\mysql connector c++ 1.1.6\include\cppconn\sqlstring.h(39): warning C4251: 'sql::SQLString::realStr' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'sql::SQLString'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\program files (x86)\mysql\mysql connector c++ 1.1.6\include\cppconn\exception.h(61): warning C4251: 'sql::SQLException::sql_state' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'sql::SQLException'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\program files (x86)\mysql\mysql connector c++ 1.1.6\include\cppconn\exception.h(145): warning C4251: 'sql::SQLUnsupportedOptionException::option' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of struct 'sql::SQLUnsupportedOptionException'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>C:\Program Files (x86)\MySQL\MySQL Connector C++ 1.1.6\include\mysql_driver.h(52): warning C4251: 'sql::mysql::MySQL_Driver::proxy' : class 'boost::scoped_ptr<T>' needs to have dll-interface to be used by clients of class 'sql::mysql::MySQL_Driver'
+                 with
+                 [
+                     T=sql::mysql::NativeAPI::NativeDriverWrapper
+                 ]
+     1>link.cpp(1836): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         node.cpp
+     1>c:\program files (x86)\mysql\mysql connector c++ 1.1.6\include\cppconn\sqlstring.h(39): warning C4251: 'sql::SQLString::realStr' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'sql::SQLString'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\program files (x86)\mysql\mysql connector c++ 1.1.6\include\cppconn\exception.h(61): warning C4251: 'sql::SQLException::sql_state' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'sql::SQLException'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\program files (x86)\mysql\mysql connector c++ 1.1.6\include\cppconn\exception.h(145): warning C4251: 'sql::SQLUnsupportedOptionException::option' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of struct 'sql::SQLUnsupportedOptionException'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>C:\Program Files (x86)\MySQL\MySQL Connector C++ 1.1.6\include\mysql_driver.h(52): warning C4251: 'sql::mysql::MySQL_Driver::proxy' : class 'boost::scoped_ptr<T>' needs to have dll-interface to be used by clients of class 'sql::mysql::MySQL_Driver'
+                 with
+                 [
+                     T=sql::mysql::NativeAPI::NativeDriverWrapper
+                 ]
+     1>node.cpp(1719): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>node.cpp(1737): warning C4101: 'resultSet' : unreferenced local variable
+         triplex_meter.cpp
+     1>c:\program files (x86)\mysql\mysql connector c++ 1.1.6\include\cppconn\sqlstring.h(39): warning C4251: 'sql::SQLString::realStr' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'sql::SQLString'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\program files (x86)\mysql\mysql connector c++ 1.1.6\include\cppconn\exception.h(61): warning C4251: 'sql::SQLException::sql_state' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'sql::SQLException'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\program files (x86)\mysql\mysql connector c++ 1.1.6\include\cppconn\exception.h(145): warning C4251: 'sql::SQLUnsupportedOptionException::option' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of struct 'sql::SQLUnsupportedOptionException'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>C:\Program Files (x86)\MySQL\MySQL Connector C++ 1.1.6\include\mysql_driver.h(52): warning C4251: 'sql::mysql::MySQL_Driver::proxy' : class 'boost::scoped_ptr<T>' needs to have dll-interface to be used by clients of class 'sql::mysql::MySQL_Driver'
+                 with
+                 [
+                     T=sql::mysql::NativeAPI::NativeDriverWrapper
+                 ]
+     1>triplex_meter.cpp(367): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>triplex_meter.cpp(378): warning C4101: 'resultSet' : unreferenced local variable
+     1>triplex_meter.cpp(550): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>triplex_meter.cpp(566): warning C4101: 'resultSet' : unreferenced local variable
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\VS2005\Win32\Release\powerflow.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Antonia\Documents\Gridlab-D\libraries_powerflow\New folder" /LIBPATH:"C:\Program Files (x86)\MySQL\MySQL Connector C++ 1.1.6\lib\opt" /LIBPATH:"C:\Program Files (x86)\MySQL\MySQL Server 5.1\lib\opt" /LIBPATH:C:\Users\Antonia\Documents\programs_setups\boost_1_59_0\boost_1_59_0\libs /LIBPATH:..\VS2005\Win32\Release\ CBLAS.lib pthreadVC2.lib superLU_MT.lib mysqlcppconn.lib libmysql.lib /NODEFAULTLIB:LIBCMT.lib /MANIFEST /ManifestFile:"Win32\Release\powerflow\powerflow.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\powerflow.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\VS2005\Win32\Release\powerflow.lib" /MACHINE:X86 /DLL Win32\Release\powerflow\powerflow.dll.embed.manifest.res
+         Win32\Release\powerflow\billdump.obj
+         Win32\Release\powerflow\capacitor.obj
+         Win32\Release\powerflow\currdump.obj
+         Win32\Release\powerflow\emissions.obj
+         Win32\Release\powerflow\fault_check.obj
+         Win32\Release\powerflow\frequency_gen.obj
+         Win32\Release\powerflow\fuse.obj
+         Win32\Release\powerflow\init.obj
+         Win32\Release\powerflow\line.obj
+         Win32\Release\powerflow\line_configuration.obj
+         Win32\Release\powerflow\line_spacing.obj
+         Win32\Release\powerflow\link.obj
+         Win32\Release\powerflow\load.obj
+         Win32\Release\powerflow\load_tracker.obj
+         Win32\Release\powerflow\main.obj
+         Win32\Release\powerflow\meter.obj
+         Win32\Release\powerflow\motor.obj
+         Win32\Release\powerflow\node.obj
+         Win32\Release\powerflow\overhead_line.obj
+         Win32\Release\powerflow\overhead_line_conductor.obj
+         Win32\Release\powerflow\power_metrics.obj
+         Win32\Release\powerflow\powerflow.obj
+         Win32\Release\powerflow\powerflow_library.obj
+         Win32\Release\powerflow\powerflow_object.obj
+         Win32\Release\powerflow\pqload.obj
+         Win32\Release\powerflow\recloser.obj
+         Win32\Release\powerflow\regulator.obj
+         Win32\Release\powerflow\regulator_configuration.obj
+         Win32\Release\powerflow\restoration.obj
+         Win32\Release\powerflow\sectionalizer.obj
+         Win32\Release\powerflow\series_reactor.obj
+         Win32\Release\powerflow\solver_nr.obj
+         Win32\Release\powerflow\substation.obj
+         Win32\Release\powerflow\switch_object.obj
+         Win32\Release\powerflow\test.obj
+         Win32\Release\powerflow\transformer.obj
+         Win32\Release\powerflow\transformer_configuration.obj
+         Win32\Release\powerflow\triplex_line.obj
+         Win32\Release\powerflow\triplex_line_conductor.obj
+         Win32\Release\powerflow\triplex_line_configuration.obj
+         Win32\Release\powerflow\triplex_load.obj
+         Win32\Release\powerflow\triplex_meter.obj
+         Win32\Release\powerflow\triplex_node.obj
+         Win32\Release\powerflow\underground_line.obj
+         Win32\Release\powerflow\underground_line_conductor.obj
+         Win32\Release\powerflow\volt_var_control.obj
+         Win32\Release\powerflow\voltdump.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>superLU_MT.lib(get_perm_c.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+            Creating library ..\VS2005\Win32\Release\powerflow.lib and object ..\VS2005\Win32\Release\powerflow.exp
+         Generating code
+         Finished generating code
+     1>superLU_MT.lib(await.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(await.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(colamd.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(colamd.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(dclock.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(dclock.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(dgstrs.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(dgstrs.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(dmyblas2.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(dmyblas2.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(dsp_blas2.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(dsp_blas2.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(dsp_blas3.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(dsp_blas3.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(get_perm_c.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(get_perm_c.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(heap_relax_snode.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(heap_relax_snode.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(lsame.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(lsame.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(mmd.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(mmd.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdgssv.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdgssv.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdgstrf.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdgstrf.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdgstrf_bmod1D.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdgstrf_bmod1D.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdgstrf_bmod2D.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdgstrf_bmod2D.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdgstrf_column_bmod.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdgstrf_column_bmod.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdgstrf_column_dfs.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdgstrf_column_dfs.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdgstrf_copy_to_ucol.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdgstrf_copy_to_ucol.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdgstrf_factor_snode.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdgstrf_factor_snode.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdgstrf_init.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdgstrf_init.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdgstrf_panel_bmod.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdgstrf_panel_bmod.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdgstrf_panel_dfs.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdgstrf_panel_dfs.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdgstrf_pivotL.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdgstrf_pivotL.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdgstrf_snode_bmod.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdgstrf_snode_bmod.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdgstrf_snode_dfs.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdgstrf_snode_dfs.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdgstrf_thread.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdgstrf_thread.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdgstrf_thread_finalize.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdgstrf_thread_finalize.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdgstrf_thread_init.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdgstrf_thread_init.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdmemory.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdmemory.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pdutil.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pdutil.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pmemory.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pmemory.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pxgstrf_finalize.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pxgstrf_finalize.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pxgstrf_mark_busy_descends.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pxgstrf_mark_busy_descends.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pxgstrf_pruneL.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pxgstrf_pruneL.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pxgstrf_relax_snode.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pxgstrf_relax_snode.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pxgstrf_scheduler.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pxgstrf_scheduler.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pxgstrf_super_bnd_dfs.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pxgstrf_super_bnd_dfs.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(pxgstrf_synch.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(pxgstrf_synch.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(qrnzcnt.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(qrnzcnt.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(sp_coletree.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(sp_coletree.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(sp_colorder.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(sp_colorder.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(sp_ienv.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(sp_ienv.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(superlu_timer.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(superlu_timer.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(util.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(util.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+     1>superLU_MT.lib(xerbla.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'superLU_MT.lib(xerbla.obj)' or at 'C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\VS2005\Win32\Release\vc100.pdb'; linking object as if no debug info
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Win32\Release\powerflow\powerflow.dll.embed.manifest" /manifest Win32\Release\powerflow\powerflow.dll.intermediate.manifest "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         powerflow.vcxproj -> C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\powerflow\..\VS2005\Win32\Release\powerflow.dll
+       FinalizeBuildStatus:
+         Deleting file "Win32\Release\powerflow\powerflow.unsuccessfulbuild".
+         Touching "Win32\Release\powerflow\powerflow.lastbuildstate".
+     1>Done Building Project "C:\Users\Antonia\Documents\PhD\My Papers\gridlabd and database\gridlab-d-code-5225-trunk\powerflow\powerflow.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:43.85

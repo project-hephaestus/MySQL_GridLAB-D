@@ -1,0 +1,28 @@
+These files are intended to be a simple example in how to 
+incorporate multiple modules within GridLAB-D.
+
+This sample incorporates a stub auction market system 
+(a non-bidding market that simply uses a data stream to 
+create a pre-defined market system) and a transactive 
+controller to adjust the heating and cooling setpoints as 
+a function of price.  Additionally, all of these systems 
+are running on top of a very simple distribution system
+(an overhead line, three center-tap transformers,
+triplex lines, and meters).
+
+Two files exist, and should be used by comparing the outputs
+of the two files.  The first, Run_Electric_Fixed, uses 
+triplex meters to monitor the energy usage of each of 99 
+homes, and translates that into a standard tiered utitlity
+bill.  The second, Run_Electric_RTP, uses the same 99 homes,
+but operates them with a transactive controller using a real
+time pricing signal from the stub auction object to reduce
+load at times of high prices.
+
+By comparing energy consumption between the two runs, 
+especially during times of high or low prices relative to the
+previous twenty-four hours, the effects of the transactive
+controller can be seen.
+
+For more information on the objects found in these models,
+please see http://sourceforge.net/apps/mediawiki/gridlab-d/
